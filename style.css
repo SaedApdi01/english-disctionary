@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(11, 11, 84);
+  color: white;
+  font-family: monospace;
+}
+
+.container{
+  background-color: black;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 1px rgb(2, 2, 220);
+  width: 90%;
+  margin: 10px;
+  max-width: 450px;
+  text-align: center;
+  font-size: 18px;
+}
+.heading{
+  color: rgb(0, 0, 254);
+  font-size: 30px;
+}
+
+.input{
+  height: 53px;
+  width: 320px;
+  border:  none;
+  border-radius: 10px;
+  text-align: center;
+  padding: 1px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 255, 0.378);
+}
+.meaning-container{
+  display: none;
+}
